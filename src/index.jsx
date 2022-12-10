@@ -1,17 +1,23 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Demo from './views/demo'
 
 const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>Hello world!</div>,
+      element: <Demo/>,
     },
 ]);
-const testPromise = () => new Promise((resolve) => {
-  setTimeout(() => resolve(123), 1000)
-})
-(async () => {
-  await testPromise()
+console.log('1')
+// const testPromise = () => new Promise((resolve) => {
+//   console.log('2')
+//   setTimeout(() => {
+//     resolve(123)
+//   }, 1000)
+// })
+// (async () => {
+//   console.log('3')
+//   await testPromise()
   createRoot(document.getElementById('root')).render(<RouterProvider router={router}/>)
-})()
+// })()

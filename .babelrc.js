@@ -18,6 +18,7 @@ module.exports = (api) => {
         ['@babel/plugin-transform-runtime', {
             corejs: 3,
         }],
+        ['import', { libraryName: 'antd', style: true }, 'antd'],
     ]
     return {
         // sourceType: 'unambiguous',

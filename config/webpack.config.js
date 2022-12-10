@@ -9,7 +9,7 @@ const { MFSU } = require('@umijs/mfsu')
 
 const mfsu = new MFSU({
     implementor: webpack,
-    buildDepWithESBuild: false,
+    buildDepWithESBuild: true,
     // runtimePublicPath: '/',
     // cwd: process.cwd()
 })
