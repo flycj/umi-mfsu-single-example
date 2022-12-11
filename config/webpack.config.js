@@ -10,6 +10,14 @@ const { MFSU } = require('@umijs/mfsu')
 const mfsu = new MFSU({
     implementor: webpack,
     buildDepWithESBuild: true,
+    depBuildConfig: {
+        loader: {
+            '.png': 'file',
+            '.jpeg': 'file',
+            '.gif': 'file',
+            '.css': 'css',
+        }
+    }
     // runtimePublicPath: '/',
     // cwd: process.cwd()
 })
