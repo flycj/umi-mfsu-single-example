@@ -1,5 +1,6 @@
 import React, { useCallback, useRef } from 'react'
 import { Button } from 'antd'
+import 'antd/es/button/style/index.less'
 import 'react-photoswipe/dist/photoswipe.css'
 import PhotoswipeUIDefault from 'photoswipe/dist/photoswipe.css'
 import PhotoSwipe from 'photoswipe'

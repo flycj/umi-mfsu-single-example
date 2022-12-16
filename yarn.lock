@@ -1316,44 +1316,44 @@
   dependencies:
     "@types/node" "*"
 
-"@umijs/bundler-esbuild@4.0.36":
-  version "4.0.36"
-  resolved "http://172.29.28.25:4873/@umijs%2fbundler-esbuild/-/bundler-esbuild-4.0.36.tgz#0ffaedf495f0bf928913d4a6c68a02c43ba7c4e3"
-  integrity sha512-TgROI8X76WmuCWpJ8au24SGq8E5NSsNxVmO1n2lxh4Ei3o19kH8Xh0nAvQGK5x4uNXDWdC2n+rAXIjzM20Prdg==
+"@umijs/bundler-esbuild@4.0.38":
+  version "4.0.38"
+  resolved "https://registry.npmmirror.com/@umijs/bundler-esbuild/-/bundler-esbuild-4.0.38.tgz#100ad66d8b16ef8e3ae9c3bd787dba18e86a47a3"
+  integrity sha512-DE1cCkt2dANDIPtrRyb2RqE4fSwWHtx5uOwv7Tp09n2YicCur0/k7WBoR0jMpwiruppO7F6OcLzjc/dYLhtoWA==
   dependencies:
-    "@umijs/bundler-utils" "4.0.36"
-    "@umijs/utils" "4.0.36"
+    "@umijs/bundler-utils" "4.0.38"
+    "@umijs/utils" "4.0.38"
     enhanced-resolve "5.9.3"
     postcss "^8.4.13"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.5.0"
 
-"@umijs/bundler-utils@4.0.36":
-  version "4.0.36"
-  resolved "http://172.29.28.25:4873/@umijs%2fbundler-utils/-/bundler-utils-4.0.36.tgz#d3c7f8cbe89cfb0f6315312ac799727b840a4cec"
-  integrity sha512-Xsazfi8RqnnhwcxWtCBX4nzzBoWuRPhDMIj2VjfLAOgUFse7HDOyuNeE/SVFeSkJZ94i7mq//v6F5MH6VgyaMw==
+"@umijs/bundler-utils@4.0.38":
+  version "4.0.38"
+  resolved "https://registry.npmmirror.com/@umijs/bundler-utils/-/bundler-utils-4.0.38.tgz#e9bfb031cd9ba8812282c7c500b8b2e4846a807c"
+  integrity sha512-Xbs/KpM58Y+FZmzlOmbkiIuw4c4wIOtEUaPB+/NQ75N8ysYRXugA0NRFuwqV+M0SJmty+q/7myXSky6OSURdlg==
   dependencies:
-    "@umijs/utils" "4.0.36"
+    "@umijs/utils" "4.0.38"
     esbuild "0.15.18"
     regenerate "^1.4.2"
     regenerate-unicode-properties "10.0.1"
     spdy "^4.0.2"
 
-"@umijs/mfsu@^4.0.36":
-  version "4.0.36"
-  resolved "http://172.29.28.25:4873/@umijs%2fmfsu/-/mfsu-4.0.36.tgz#67f91661cf8ae28124d3779329b7e7c047263f19"
-  integrity sha512-7mpEEsW4m+rO5e3cOHJPjkwySJOWyr4WyYaajbxCGcLXFhIbHSH5B1mEUbBjoV4zuguFnLRe9tOQoDoH1mayiA==
+"@umijs/mfsu@^4.0.37":
+  version "4.0.38"
+  resolved "https://registry.npmmirror.com/@umijs/mfsu/-/mfsu-4.0.38.tgz#40252d807574dc7fd7c0ccebb3ac787f8ca35f0c"
+  integrity sha512-Oj5fkOIqgTzGQ8fO+JduY1FzyZNqfOGjHldXd7YhiV5TTT71oW66VI1JsQF9yPQgFysu8kvahN1wkPBnqH4rzQ==
   dependencies:
-    "@umijs/bundler-esbuild" "4.0.36"
-    "@umijs/bundler-utils" "4.0.36"
-    "@umijs/utils" "4.0.36"
+    "@umijs/bundler-esbuild" "4.0.38"
+    "@umijs/bundler-utils" "4.0.38"
+    "@umijs/utils" "4.0.38"
     enhanced-resolve "5.9.3"
     is-equal "^1.6.4"
 
-"@umijs/utils@4.0.36":
-  version "4.0.36"
-  resolved "http://172.29.28.25:4873/@umijs%2futils/-/utils-4.0.36.tgz#051fa120cd0e0d38b03888eb6b231899674b7700"
-  integrity sha512-Wrv56ZyUBWGLY5dfjaQqDXirLPLkmCBBXUdQgGvyTy2dGAGmJ0HA/KPgSzgmhBDVT54sIuDOSwNxl0SeaIdgew==
+"@umijs/utils@4.0.38":
+  version "4.0.38"
+  resolved "https://registry.npmmirror.com/@umijs/utils/-/utils-4.0.38.tgz#bcb8666b1162c126ccde4151f14a60f251d0fdb5"
+  integrity sha512-DC1iNon3ABQPsB8cFomvZAXCR9KRfhvNqqf1ru93+mqKbJmOTM+r6hJxbNzCJSCsvIye4a9bmaR+4vDRvXKhOw==
   dependencies:
     chokidar "3.5.3"
     pino "7.11.0"
